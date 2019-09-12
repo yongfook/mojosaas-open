@@ -48,3 +48,4 @@ gem 'pg'
 gem 'httparty'
 gem "figaro"
 gem "dalli"
+gem 'rack-cors'
