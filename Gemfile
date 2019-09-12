@@ -47,3 +47,4 @@ gem 'pg'
 # gem 'sidekiq'
 gem 'httparty'
 gem "figaro"
+gem "dalli"

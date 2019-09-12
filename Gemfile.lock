@@ -49,6 +49,7 @@ GEM
     byebug (11.0.1)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
+    dalli (2.7.10)
     erubi (1.8.0)
     ffi (1.11.1)
     figaro (1.1.1)
@@ -144,6 +145,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
+  dalli
   figaro
   httparty
   listen (>= 3.0.5, < 3.2)
