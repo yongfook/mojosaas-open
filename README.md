@@ -1,24 +1,12 @@
-# README
+# open.mojosaas.com
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The stats on mojosaas.com are compiled using this app.
 
-Things you may want to cover:
+This app uses: 
 
-* Ruby version
+- the Chartmogul API to pull a subscription metrics summary 
+- custom APIs to pull signup metrics from user tables
 
-* System dependencies
+This data is cached and refreshed every 5 minutes.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Revenue stats are also [verified by Stripe](https://www.indiehackers.com/product/mojosaas/revenue).
