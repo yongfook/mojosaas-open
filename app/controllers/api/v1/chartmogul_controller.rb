@@ -1,4 +1,9 @@
 class Api::V1::ChartmogulController < ApplicationController
+	def helloworld
+		render :json => {:hello => :world}
+
+	end
+
 	def metrics
 		data = Rails.cache.fetch('api:open:chartmogul', {expires_in: 5.minutes, public: true, raw: true}) do
 			auth = {:username => ENV['CHARTMOGUL_TOKEN'], :password => ENV['CHARTMOGUL_KEY']}
@@ -7,4 +12,5 @@ class Api::V1::ChartmogulController < ApplicationController
 		end
 		render :json => @data
 	end
+
 end
