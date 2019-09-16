@@ -1,6 +1,6 @@
 # open.mojosaas.com
 
-The stats on mojosaas.com are compiled using this app.
+The stats on [Mojosaas.com](https://www.mojosaas.com) are compiled using this app.
 
 This app uses: 
 
@@ -10,4 +10,4 @@ This app uses:
 
 This data is cached and refreshed every 5 minutes.
 
-Revenue stats are also [verified by Stripe](https://www.indiehackers.com/product/mojosaas/revenue).
+Revenue stats on [Mojosaas.com](https://www.mojosaas.com) are also [verified by Stripe](https://www.indiehackers.com/product/mojosaas/revenue).
