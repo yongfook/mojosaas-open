@@ -6,7 +6,7 @@ class Api::V1::MailchimpController < ApplicationController
 			puts "Fetching fresh data"
 			auth = {:username => "mailchimp docs say any string is ok here", :password => ENV['MAILCHIMP_API_KEY']}
 			response = HTTParty.get("#{mailchimp_root}/lists/#{ENV['MAILCHIMP_LIST_ID']}", :basic_auth => auth)
-			response['stats']
+			response['stats'].to_json
 		end
 		render :json => @data
 	end
