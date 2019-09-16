@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       get 'chartmogul/metrics', to: 'chartmogul#metrics'
+      get 'mailchimp/subscribers', to: 'mailchimp#subscribers'
     end
   end
 end
