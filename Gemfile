@@ -49,3 +49,4 @@ gem 'httparty'
 gem "figaro"
 gem "dalli"
 gem 'rack-cors'
+gem 'airbrake-ruby', '~> 4.7'
